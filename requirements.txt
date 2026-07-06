@@ -1,0 +1,17 @@
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+apify-client>=1.7.0
+supabase>=2.5.0
+httpx>=0.27.0
+tenacity>=8.3.0
+loguru>=0.7.2
+rich>=13.7.1
+gradio>=4.36.0
+openai>=1.35.0
+pandas>=2.2.2
+sqlalchemy>=2.0.30
+psycopg2-binary>=2.9.9
+fastapi>=0.111.0
+uvicorn>=0.30.0
+langchain-core>=0.2.5
