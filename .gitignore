@@ -5,3 +5,4 @@ __pycache__/
 .dockerignore
 specs.md
 frontend_specs.md
+.gitignore
