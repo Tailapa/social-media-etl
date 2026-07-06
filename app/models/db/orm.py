@@ -299,4 +299,16 @@ embeddings = Table(
     Column("created_at", TIMESTAMP),
 )
 
+saved_searches = Table(
+    "saved_searches",
+    metadata,
+    Column("id", UUID, primary_key=True),
+    Column("name", Text, nullable=False),
+    Column("kind", Text, nullable=False),
+    Column("payload", JSONB),
+    Column("created_at", TIMESTAMP),
+    Column("updated_at", TIMESTAMP),
+    Column("deleted_at", TIMESTAMP),
+)
+
 KNOWN_TABLES: frozenset[str] = frozenset(metadata.tables.keys())

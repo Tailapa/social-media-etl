@@ -16,6 +16,7 @@ from app.models.pydantic.hashtag import Hashtag, Mention, PostHashtag
 from app.models.pydantic.media import Media
 from app.models.pydantic.platform import Platform
 from app.models.pydantic.post import Post
+from app.models.pydantic.saved_search import SavedSearch, SavedSearchKind
 
 __all__ = [
     "Author",
@@ -42,4 +43,6 @@ __all__ = [
     "Media",
     "Platform",
     "Post",
+    "SavedSearch",
+    "SavedSearchKind",
 ]
